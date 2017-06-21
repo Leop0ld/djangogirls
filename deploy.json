@@ -1,7 +1,7 @@
 {
   "REPO_URL":"https://github.com/Leop0ld/djangogirls",
   "PROJECT_NAME":"mysite",
-  "REMOTE_HOST":"52.231.31.180",
+  "REMOTE_HOST":"djangogirls-sample.tk",
   "REMOTE_USER":"django",
   "STATIC_ROOT":"static",
   "STATIC_URL":"static",
