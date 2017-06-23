@@ -17,19 +17,12 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>
     $(document).ready(function () {
-        var count = 0;
-
         $('.post').click(function () {
-            if($(this).hasClass('orange')) {
-                $(this).removeClass('orange');
-            } else {
-                $(this).addClass('orange');
-            }
+            var color = '#'+Math.floor(Math.random()*16777215).toString(16);
+            $(this).css('background-color', color);
         });
         $('.easterEgg').click(function () {
-            count += 1;
-            if(count % 5 === 0)
-                alert('Stop!!!');
+            alert('Clicked!');
         })
     });
 </script>
